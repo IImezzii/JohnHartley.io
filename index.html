@@ -1,373 +1,209 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-		<title>Dimension by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <head>
+        <title>Dimension by HTML5 UP</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .snippet {
+                position: absolute;
+                background: #f4f4f4;
+                border: 1px solid #ccc;
+                padding: 10px;
+                max-width: 400px;
+                z-index: 10;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+            .snippet pre {
+                margin: 0;
+                font-size: 0.9em;
+                overflow-x: auto;
+            }
+            .snippet button {
+                margin-top: 10px;
+            }
+            /* Override button style for small buttons */
+            button.small {
+                background-color: #00CED1; /* Cyan background */
+                color: #fff; /* White text for contrast */
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+                border-radius: 3px;
+                transition: background-color 0.3s; /* Smooth hover effect */
+            }
+            button.small:hover {
+                background-color: #008B8B; /* Darker cyan on hover */
+            }
+        </style>
+    </head>
+    <body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Wrapper -->
+            <div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>John Hartley</h1>
-								<p>Current student at Full Sail University 
-								<br />Game Development and Programmer
-								</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#introduction">Introduction</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#education">Education</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="#TEST BUTTON">TEST BUTTON</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+                <!-- Header -->
+                    <header id="header">
+                        <div class="logo">
+                            <span class="icon fa-gem"></span>
+                        </div>
+                        <div class="content">
+                            <div class="inner">
+                                <h1>John Hartley</h1>
+                                <p>Current student at Full Sail University 
+                                <br />Game Development and Programmer
+                                </p>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#introduction">Introduction</a></li>
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#development">Development</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header>
 
-				<!-- Main -->
-					<div id="main">
+                <!-- Main -->
+                    <div id="main">
 
-						<!-- Intro -->
-							<article id="introduction">
-								<h2 class="major">Introduction</h2>
-								<span class="image main"><img src="images/avatar-original.jpg" alt="" /></span>
-								<!--<p> <a href="#work"></a>.</p> -->
-								<p>Hello, my name is John Patrick Hartley. I was born on June 10th, 2001, in sunny San Diego, California. I have a passion for gaming and love spending my free time watching YouTube and diving into strategy and fighting games. Whether I'm exploring complex tactics in strategy titles or sharpening my reflexes in intense fighting games, I enjoy the challenges and excitement they bring. My love for games has also inspired me to pursue a deeper understanding of game development and programming, turning my hobby into a pathway toward a creative and dynamic career.</p>
-							</article>
+                        <!-- SkillSet -->
+                            <article id="development">
+                                <h2 class="major">Development</h2>
+                                <h3>Game Engines</h3>
+                            <ul>
+                                <li>Unreal Engine 5</li>
+                                <li>Unity</li>
+                                <li>Vulkan (with Gateware API)</li>
+                        </ul>
+                        <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C++</li>
+                    <li>C#</li>
+                    <li>C</li>
+                        <li>HLSL</li>
+                        <li>Assembly</li>
+                    <li>SQL</li>
+                </ul>
+                    <h3>Software & Tools</h3>
+               <ul>
+                    <li>Visual Studio</li>
+                    <li>Git & GitHub</li>
+                <li>Jira</li>
+                <li>Blender</li>
+            <li>Trello</li>
+        </ul>
+    </article>
 
-						<!-- Work -->
-							<article id="work">
-								<h3 class="major">Astreya - 2.5D retro game </h3>
-								<span class="image main"><img src="images/astreyavid.gif" alt="" /></span>
-								<p>Astreya is my most recent project, developed over the course of a month with a team of three other people. Our goal was to create a game from scratch using Vulkan and the Gateware API. This project was not only a blast to work on but also my first experience collaborating with a more structured team and using Jira for project management.
-									Inspired by Asteroids, we set out to recreate the classic game by the second week of class before expanding on it with our own innovations. This experience taught me a lot about real teamwork, further honed my programming skills, and even gave me another opportunity to tackle audio implementation—this time with success.
-									The hard work paid off, as our professor recognized Astreya as one of the best projects the class had ever seen. It will now be used as the example project for future students, which makes it even more rewarding.</p>
-									
-								<h3 class="major">Robocode - AI robot dueling</h3>
-								<span class="image main"><img src="images/ROBOVID.gif" alt="" /></span>
-								<p>Robocode was a project from my Artificial Intelligence class, where the goal was to build a robot capable of defeating the school's own AI opponent. Since I genuinely loved both the class and AI as a subject, I dedicated a lot of time and effort to refining my robot's strategy. The competitive aspect made it even more exciting, as I was driven not just to complete the assignment but to showcase my work and test it against other students' creations. It was a rewarding experience that fueled my passion for AI and strategic problem-solving.</p>
-								
-								<h3 class="major">StoneHenge - Texturing and graphics </h3>
-								<span class="image main"><img src="images/STONEHENGE.gif" alt="" /></span>
-								<p>StoneHenge was, without a doubt, one of the most challenging assignments I've faced in my degree program. Given to me during my graphics class, it demanded a significant amount of dedication and effort to complete. More than any other class, this project deepened my understanding of lighting and textures, pushing me to refine my skills and problem-solving abilities. Despite the difficulty, it was an incredibly valuable learning experience—one that tested my limits and helped me grow as a developer.</p>
-								
-								<h3 class="major">Take A Chance - Unity FPS </h3>
-								<span class="image main"><img src="images/TAKEAVID.gif" alt="" /></span>
-								<p>Take A Chance was my first real attempt at making a game, developed alongside a classmate as part of a two-month-long midterm project. It was our introduction to Unity, as well as our first experience using Scrum and Trello to organize tasks and communicate progress effectively. The assignment came with specific requirements, such as implementing audio support, which pushed us to learn and apply new skills throughout development.
-									More than just a school project, this experience was a significant milestone for me. It marked the moment when game development became more than just an interest—it became something tangible that I could build and bring to life. Looking back, Take A Chance remains one of my most memorable and rewarding experiences in school, and it will always hold a special place in my heart.</p>
-								
-							</article>
+                        <!-- Intro -->
+                            <article id="introduction">
+                                <h2 class="major">Introduction</h2>
+                                <span class="image main"><img src="images/avatar-original.jpg" alt="" /></span>
+                                <p>"Hello, my name is John Patrick Hartley. I was born on June 10th, 2001, in sunny San Diego, California. I have a passion for gaming and love spending my free time watching YouTube and diving into strategy and fighting games. Whether I'm exploring complex tactics in strategy titles or sharpening my reflexes in intense fighting games, I enjoy the challenges and excitement they bring. My love for games has also inspired me to pursue a deeper understanding of game development and programming, turning my hobby into a pathway toward a creative and dynamic career. I'm looking for a role that offers opportunities for growth—both in my technical skills and career path—where I can continue to learn and take on new challenges. I want to work in an environment that encourages innovation and development, allowing me to expand my knowledge while making a meaningful impact."</p>
+                            </article>
 
-						<!-- education -->
-							<article id="education">
-								<h2 class="major">Education</h2>
-								<span class="image main"><img src="images/full-sail@logotyp.us.png" alt="" /></span>
-								<p>Attending Full Sail University significantly enhanced my game development and programming skills through its hands-on, project-based curriculum. The university's focus on real-world applications allowed me to work with industry-standard tools and technologies, giving me practical experience in coding, game design, and software development. Collaborative projects with peers helped me develop problem-solving skills and taught me the importance of teamwork in a development environment. The experienced faculty, many of whom are industry professionals, provided valuable insights and guidance, helping me refine my technical abilities and creative approach. Overall, Full Sail University equipped me with the knowledge and confidence needed to excel in the competitive world of game development.</p>
-							</article>
+                        <!-- Work -->
+                            <article id="work">
+                                <h3 class="major">Astreya - 2.5D retro game </h3>
+                                <span class="image main"><img src="images/astreyavid.gif" alt="" /></span>
+                                <p>Astreya is my most recent project, developed over the course of a month with a team of three other people. Our goal was to create a game from scratch using Vulkan and the Gateware API. I was primarily responsible for designing the enemies and implementing the sound, which was a rewarding challenge as it marked my first successful audio integration in a project. Additionally, this project was my first experience using Blender to create 3D models, which I used to bring the enemies to life. Beyond those areas, I also contributed to other aspects of development, such as gameplay mechanics and testing, making it a well-rounded learning experience. Inspired by Asteroids, we set out to recreate the classic game by the second week of class before expanding on it with our own innovations. This experience taught me a lot about real teamwork, further honed my programming skills, and gave me confidence in tackling new tools like Blender. The hard work paid off, as our professor recognized Astreya as one of the best projects the class had ever seen. It will now be used as the example project for future students, which makes it even more rewarding.</p>
+                                    
+                                <h3 class="major">Robocode - AI robot dueling</h3>
+                                <span class="image main"><img src="images/ROBOVID.gif" alt="" /></span>
+                                <p>Robocode was a project from my Artificial Intelligence class, where the goal was to build a robot capable of defeating the school's own AI opponent. Since I genuinely loved both the class and AI as a subject, I dedicated a lot of time and effort to refining my robot's strategy. I implemented a sophisticated <span>targeting</span> system, calculating enemy positions based on their velocity and heading, and even incorporated battlefield boundary checks to ensure accuracy <button class="small" onclick="toggleSnippet('targeting-snippet')">View Targeting Logic</button>. The robot also features a <span>radar-locking</span> mechanism to maintain focus on the closest enemy <button class="small" onclick="toggleSnippet('radar-locking-snippet')">View Radar Focus</button>, paired with <span>dynamic bullet power</span> adjustments based on distance—maximizing efficiency while conserving energy <button class="small" onclick="toggleSnippet('bullet-power-snippet')">View Power Efficiency</button>. The competitive aspect made it even more exciting, as I was driven not just to complete the assignment but to showcase my work and test it against other students' creations. It was a rewarding experience that fueled my passion for AI and strategic problem-solving.</p>
 
-						<!-- Contact -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<div class="fields">
-							  <div class="field">
-								<h3>Phone</h3>
-								<p>(689) 312-5948</p>
-							  </div>
-							  <div class="field">
-								<h3>Email</h3>
-								<p>johnimezzii@gmail.com</p>
-							  </div>
-							</div>
-						  </article>
-						  
-								<!--
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-								-->
-							
+                                <!-- Code Snippets -->
+                                <div id="targeting-snippet" class="snippet" style="display: none;">
+                                    <pre><code>double predictedX = getX() + event.getDistance() * Math.sin(getHeadingRadians() + event.getBearingRadians());
+double predictedY = getY() + event.getDistance() * Math.cos(getHeadingRadians() + event.getBearingRadians());
+long time = (long) (event.getDistance() / bulletSpeed);
+for (int i = 0; i < time; i++) {
+    predictedX += Math.sin(enemyHeading) * enemyVelocity;
+    predictedY += Math.cos(enemyHeading) * enemyVelocity;
+    if (!getBattleFieldRectangle().contains(predictedX, predictedY)) {
+        break;
+    }
+}</code></pre>
+                                    <button class="small" onclick="toggleSnippet('targeting-snippet')">Hide</button>
+                                </div>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+                                <div id="radar-locking-snippet" class="snippet" style="display: none;">
+                                    <pre><code>double radarTurn = getHeadingRadians() + event.getBearingRadians() - getRadarHeadingRadians();
+setTurnRadarRightRadians(2 * normalizeAngle(radarTurn));</code></pre>
+                                    <button class="small" onclick="toggleSnippet('radar-locking-snippet')">Hide</button>
+                                </div>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+                                <div id="bullet-power-snippet" class="snippet" style="display: none;">
+                                    <pre><code>double bulletPower = Math.min(3, Math.max(1, (400 / event.getDistance())));
+double bulletSpeed = 20 - 3 * bulletPower;</code></pre>
+                                    <button class="small" onclick="toggleSnippet('bullet-power-snippet')">Hide</button>
+                                </div>
+                                
+                                <h3 class="major">StoneHenge - Texturing and graphics </h3>
+                                <span class="image main"><img src="images/STONEHENGE.gif" alt="" /></span>
+                                <p>StoneHenge was, without a doubt, one of the most challenging assignments I've faced in my degree program. Given to me during my graphics class, it demanded a significant amount of dedication and effort to complete. More than any other class, this project deepened my understanding of lighting and textures, pushing me to refine my skills and problem-solving abilities. Despite the difficulty, it was an incredibly valuable learning experience—one that tested my limits and helped me grow as a developer.</p>
+                                
+                                <h3 class="major">Take A Chance - Unity FPS </h3>
+                                <span class="image main"><img src="images/TAKEAVID.gif" alt="" /></span>
+                                <p>Take A Chance was my first real attempt at making a game, developed alongside a classmate as part of a two-month-long midterm project. It was our introduction to Unity, as well as our first experience using Scrum and Trello to organize tasks and communicate progress effectively. The assignment came with specific requirements, such as implementing audio support, which pushed us to learn and apply new skills throughout development. We created an impressive feature set, including a working Risk of Rain item system, varying functioning enemy types, multiple levels, and a challenging boss fight with the boss featuring different attacks. More than just a school project, this experience was a significant milestone for me. It marked the moment when game development became more than just an interest—it became something tangible that I could build and bring to life. Looking back, Take A Chance remains one of my most memorable and rewarding experiences in school, and it will always hold a special place in my heart, especially considering that for a two-person team new to Unity, this was a pretty impressive accomplishment.</p>
+                            </article
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+                        <!-- education -->
+                            <article id="education">
+                                <h2 class="major">Education</h2>
+                                <span class="image main"><img src="images/full-sail@logotyp.us.png" alt="" /></span>
+                                <p>Attending Full Sail University significantly enhanced my game development and programming skills through its hands-on, project-based curriculum. The university's focus on real-world applications allowed me to work with industry-standard tools and technologies, giving me practical experience in coding, game design, and software development. Collaborative projects with peers helped me develop problem-solving skills and taught me the importance of teamwork in a development environment. The experienced faculty, many of whom are industry professionals, provided valuable insights and guidance, helping me refine my technical abilities and creative approach. Overall, Full Sail University equipped me with the knowledge and confidence needed to excel in the competitive world of game development.</p>
+                            </article>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+                        <!-- Contact -->
+                        <article id="contact">
+                            <h2 class="major">Contact</h2>
+                            <div class="fields">
+                              <div class="field">
+                                <h3>Phone</h3>
+                                <p>(689) 312-5948</p>
+                              </div>
+                              <div class="field">
+                                <h3>Email</h3>
+                                <p>johnimezzii@gmail.com</p>
+                              </div>
+                            </div>
+                          </article>
 
-								<section>
-									<h3 class="major">Lists</h3>
+                    </div>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                <!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">© John Hartley.IO | Design: <a href="https://html5up.net">HTML5 UP</a></p>
+				</footer>
+				
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+            </div>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+        <!-- BG -->
+            <div id="bg"></div>
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script>
+            function toggleSnippet(snippetId) {
+                var snippet = document.getElementById(snippetId);
+                if (snippet.style.display === "none" || snippet.style.display === "") {
+                    snippet.style.display = "block";
+                } else {
+                    snippet.style.display = "none";
+                }
+            }
+            </script>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    </body>
 </html>

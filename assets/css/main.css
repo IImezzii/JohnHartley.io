@@ -72,6 +72,69 @@ input, select, textarea {
 	appearance: none;
 }
 
+.snippet {
+    position: absolute;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.snippet pre {
+    margin: 0;
+    font-size: 0.9em;
+    overflow-x: auto;
+}
+.snippet button {
+    margin-top: 10px;
+}
+
+.snippet-container {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.snippet-header {
+    background: #f4f4f4;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.snippet-header:hover {
+    background: #e0e0e0;
+}
+
+.toggle-icon {
+    float: right;
+    transition: transform 0.3s;
+}
+
+.snippet-content {
+    background: #fff;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.snippet-content pre {
+    margin: 0;
+    font-size: 0.9em;
+    overflow-x: auto;
+}
+
+.snippet-container.open .snippet-content {
+    max-height: 200px; /* Adjust based on content height */
+}
+
+.snippet-container.open .toggle-icon {
+    transform: rotate(180deg);
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1140,9 +1203,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 

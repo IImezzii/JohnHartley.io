@@ -1,30 +1,16 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# John Hartley - Portfolio Website
+
+This is my personal portfolio website, designed to showcase my **projects, skills, and experience** in game development and programming. The site features an introduction, details on my past work, my skillset, and ways to contact me.
+
+## 🔹 Features
+- **Introduction** – My background and career goals.
+- **Work** – A breakdown of my game projects, including Astreya, Robocode, StoneHenge, and Take A Chance.
+- **Development (SkillSet)** – List of game engines, programming languages, and tools I’ve learned.
+- **Education** – My academic background at Full Sail University.
+- **Contact** – My email and phone number.
 
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+If you have any questions or want to connect, feel free to reach out:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Email: johnimezzii@gmail.com
+Phone: (689) 312-5948
